@@ -7,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "tailwind:build": "tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
-    "deploy": "gh-pages -d dist"
-
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
