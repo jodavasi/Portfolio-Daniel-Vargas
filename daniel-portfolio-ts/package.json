@@ -1,0 +1,16 @@
+{
+  "name": "daniel-portfolio-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tailwind:build": "tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  }
+}
